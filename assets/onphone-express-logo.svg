@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">OnPhone Express</title>
+  <desc id="desc">OnPhone Express courier logo in ocean blue and maroon, with a courier emerging from a smartphone and the tagline Your Errands. Our Priority.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 98h122M7 146h113M18 195h93" stroke="#123F78" stroke-width="17"/>
+    <path d="M40 126h90M4 174h88" stroke="#A51632" stroke-width="13"/>
+    <path d="M158 392 253 52q8-28 36-24l162 18q28 4 20 32l-81 315" stroke="#123F78" stroke-width="24"/>
+    <path d="m193 352 71-269q5-18 22-15l145 16q16 2 11 18l-67 252" stroke="#123F78" stroke-width="3" opacity=".35"/>
+    <path d="M307 57h35" stroke="#fff" stroke-width="7"/>
+    <path d="M267 142a59 59 0 1 1 87 52" stroke="#A51632" stroke-width="12"/>
+    <path d="m272 157 20 23 70-65" stroke="#A51632" stroke-width="13"/>
+  </g>
+  <g fill="#123F78">
+    <circle cx="363" cy="203" r="24"/>
+    <path d="m346 232 39-8 23 25 46 10-7 15-53-8-24-13-17 43 43 34-9 14-61-32-22-43-39 31-39 65-17-9 33-80 55-48z"/>
+    <path d="m294 331-54 57-19 4-7-12 44-61zM390 320l43 55-4 16-14 1-58-49z"/>
+    <path d="m330 258-51 16-37 30-10-13 34-43 49-30z"/>
+  </g>
+  <path d="m431 305 36-48 65 18-24 62-53-6z" fill="#A51632"/>
+  <path d="m480 277 22 7-14 42" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M78 363c92 71 231 38 337-15 46-23 84-50 112-77-50 67-119 124-211 158-113 43-213 30-260-20-15-16-21-30-18-46 7-32 45-63 112-93-44 32-72 63-72 84 0 4 0 7 0 9z" fill="#A51632"/>
+  <text x="526" y="205" fill="#123F78" font-family="Arial,Helvetica,sans-serif" font-size="139" font-style="italic" font-weight="800" letter-spacing="-8">OnPhone</text>
+  <text x="572" y="320" fill="#A51632" font-family="Arial,Helvetica,sans-serif" font-size="111" font-style="italic" font-weight="800" letter-spacing="-5">Express</text>
+  <path d="M1121 108a63 63 0 0 0-63-63M1108 141a37 37 0 0 0-37-37M1095 172a14 14 0 0 0-14-14" fill="none" stroke="#A51632" stroke-width="14" stroke-linecap="round"/>
+  <path d="M574 363q201 31 439 0" fill="none" stroke="#A51632" stroke-width="5"/>
+  <text x="575" y="406" fill="#123F78" font-family="Arial,Helvetica,sans-serif" font-size="29" font-style="italic" font-weight="700" letter-spacing="8">Your Errands. Our Priority.</text>
+</svg>
