@@ -1,0 +1,3 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://web246.github.io/on-phone-demo/sitemap.xml
