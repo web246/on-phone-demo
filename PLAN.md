@@ -29,11 +29,13 @@
 
 ## Work completed
 
-- Added the public platform-tour entry point and a responsive demo workspace with customer, business, rider and administrator views.
+- Added the public platform-tour entry point and a responsive demo workspace with customer, business, dispatch, rider, tracking and management views.
 - Added three guided tour tracks with progress, previous/next, skip, restart-by-reopening, fictional sample labels and a personal-demo contact handoff.
 - Expanded the delivery request form with email, recipient details, parcel type, scheduled collection and special instructions. Requests prepare a WhatsApp message and temporary reference; no personal details are stored in local storage or a server.
 - Removed unverified sample prices, delivery windows, capacity limits and a follower-count claim from the public presentation. Dispatch is asked to confirm routes, price and availability.
 - Added page metadata, canonical/Open Graph tags, `robots.txt`, `sitemap.xml`, a project README update and `brian.md`.
 - Ran `node --check app.js`, served the project at `http://127.0.0.1:4173/`, checked all site routes and important assets over HTTP, and inspected desktop and mobile Firefox screenshots of the home, demo and open tour.
 
-The current project remains a front-end demonstration. Server-side storage, authentication, real dispatch/rider workflows, online tracking, payments, messaging and reports require a backend and business-approved integrations.
+The demo workspace now runs an end-to-end fictional workflow: customer bookings and business multi-order/CSV imports enter one browser-local queue; dispatch confirms and assigns; the selected rider advances status; tracking looks up the shared reference; and management counts update from those same records. Browser interaction checks passed for those flows and the guided tour.
+
+The project remains a front-end demonstration. Server-side storage, authentication, real dispatch/rider workflows, online tracking, payments, messaging and reports require a backend and business-approved integrations.

@@ -67,9 +67,23 @@ The site cannot guarantee search rankings or a number of new customers. It creat
 
 ## What is working in this website now
 
-This project is a static website made with HTML, CSS and browser JavaScript. The current site includes pages for home, services, coverage, booking, updates and contact. It uses the existing logo and local courier photographs. It has a mobile layout, service enquiry links, contact options and a sample platform presentation.
+This project is a static website made with HTML, CSS and browser JavaScript. It includes pages for home, services, coverage, booking, updates, contact and a demo operations workspace. It uses the existing logo and local courier photographs and has a mobile layout.
 
-The booking page validates required fields in the browser and prepares a WhatsApp message containing the details. It creates a temporary reference for that browser session. **The customer must still send the WhatsApp message. The site does not submit a booking to a company database, notify dispatch automatically or provide a retrievable tracking record.** The demo platform page is fictional and is there to explain a possible workflow. Its sample records are not live operations.
+The public booking page validates fields in the browser and prepares a WhatsApp message containing the details. **The customer must still send the WhatsApp message; that request does not enter the demo operations workspace.**
+
+The demo workspace is a separate, working simulation. You can create one customer request or several business requests, import sample orders from CSV, confirm a request as dispatch, assign a sample rider, advance rider statuses, look up a reference, and see counts in the management view. Those roles share fictional sample records saved in this browser's local storage. The reset button restores the starting examples. This is useful for demonstrating the intended workflow but it is not a secure multi-user service: it has no logins, company database, real customer data, messages, payment processing or GPS.
+
+### Try the end-to-end demo
+
+1. Open `platform.html` from the website and choose **Customer**. Create a sample delivery and keep the `DEMO-OP-...` reference.
+2. Choose **Dispatch**. Confirm the new request, choose a sample rider, and assign it.
+3. Choose **Rider**. Mark the assigned delivery collected, in transit and delivered.
+4. Choose **Track a delivery** and look up the same reference. The status history should now show the rider updates.
+5. Choose **Management** to see the sample booking and completion counts change.
+6. Choose **Business** to prepare several deliveries at once or import the downloadable CSV template. The preview reports valid rows and errors before you import.
+7. Use **Reset demo data** to restore the original fictional examples.
+
+The demo records are shared only between these role views in the same browser. Clearing browser storage also clears the changes.
 
 The quote area now asks the customer to request a route quote. This is deliberate: the project contained exact sample prices, delivery windows and weight limits, but the supplied business description did not confirm them. Dispatch should provide actual rates, timing, capacity, service area, business terms, address, phone numbers and hours before those claims are published as facts.
 

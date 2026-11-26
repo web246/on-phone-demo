@@ -18,8 +18,10 @@ Open <http://127.0.0.1:4173/>.
 - `book.html` — delivery request form
 - `updates.html` — customer updates and delivery tips
 - `contact.html` — dispatch contact details and enquiry form
-- `platform.html` — fictional interactive customer, business, rider and administrator demo
+- `platform.html` — customer, business, dispatch, rider, tracking and management demo
 
-Shared rendering and interactions are in `app.js`; styles are in `styles.css`. The logo and courier photographs are in `assets/`.
+Shared rendering and public-page interactions are in `app.js`. Demo-system workflows are in `demo.js`, and styles are in `styles.css`. The logo and courier photographs are in `assets/`.
 
-The booking and enquiry forms prepare WhatsApp messages and temporary references. They do not send messages or save requests centrally. The platform demo and guided tour use fictional sample data. A production launch needs an approved server, database, role-based access, and verified payment and messaging integrations.
+The public booking and enquiry forms prepare WhatsApp messages; the visitor must send them. The separate demo workspace lets you create sample bookings, confirm and assign them, update rider statuses, track references, import sample business orders from CSV, and view dashboard counts. Fictional records are saved only in local storage on that browser. Use **Reset demo data** to restore the sample set. The roles are simulations and do not have authentication or access controls.
+
+No demo action contacts a customer, takes a payment, or records live GPS. Production operation needs a server and database, secure role-based access, and verified payment and messaging integrations.
